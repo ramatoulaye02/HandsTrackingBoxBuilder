@@ -67,7 +67,7 @@ npm run dev
 
 ### Controls
 - **Build Mode** (Green): Pinch to place voxels at cursor position
-- **Erase Mode** (Red): Pinch to remove voxels at cursor position  
+- **Erase Mode** (Red): Pinch to remove voxels at cursor position
 - **Navigate Mode** (Blue): Use hand movement to orbit the camera
 
 ### Color Selection
