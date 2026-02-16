@@ -13,10 +13,6 @@ A 3D voxel creation tool powered by hand tracking and Gemini AI structural gener
 - **Pinch to Build**: Use your index finger and thumb pinch gesture to place voxels in 3D space
 - **Real-time Tracking**: Powered by MediaPipe Tasks Vision for accurate hand landmark detection
 - **Multiple Modes**: Switch between Build, Erase, and Navigate modes seamlessly
-
-### 🤖 AI-Powered Generation
-- **Gemini Integration**: Generate complete voxel structures from text descriptions
-- **Magic Build**: Simply describe what you want, and let Gemini AI create it
 - **Intelligent Structures**: AI understands spatial relationships and generates coherent 3D models
 
 ### 🎮 Intuitive Interface
@@ -45,18 +41,14 @@ cd HandsTrackingBoxBuilder
 npm install
 ```
 
-3. Set up Gemini API (if using AI features):
-   - Obtain a Gemini API key from Google AI Studio
-   - Configure the API key in your environment (see `services/geminiService.ts`)
-
-4. Start the development server:
+3. Start the development server:
 ```bash
 npm run dev
 ```
 
-5. Open your browser and navigate to the local development URL (typically `http://localhost:5173`)
+4. Open your browser and navigate to the local development URL (typically `http://localhost:5173`)
 
-6. **Grant camera permissions** when prompted to enable hand tracking
+5. **Grant camera permissions** when prompted to enable hand tracking
 
 ## 🎯 Usage
 
@@ -74,11 +66,6 @@ npm run dev
 - Click any color in the palette to select it for building
 - Current color is highlighted with a white border
 
-### AI Magic Build
-1. Type a description in the bottom prompt bar (e.g., "a small house", "a pyramid", "a tree")
-2. Press Enter or click "Magic Build"
-3. Watch as Gemini AI generates your structure
-
 ### Additional Controls
 - **Camera Toggle** (top right): Enable/disable hand tracking camera
 - **Reset Button** (top right): Clear all voxels from the scene
@@ -88,7 +75,6 @@ npm run dev
 - **Frontend Framework**: React 19.2 with TypeScript
 - **3D Rendering**: Three.js with React Three Fiber
 - **Hand Tracking**: MediaPipe Tasks Vision
-- **AI Generation**: Google Gemini API
 - **Build Tool**: Vite 6.2
 - **Styling**: Tailwind CSS (via utility classes)
 - **Icons**: Heroicons
