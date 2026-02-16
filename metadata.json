@@ -1,0 +1,7 @@
+{
+  "name": "Gemini Voxel Builder",
+  "description": "A 3D voxel creation tool powered by hand tracking and Gemini AI structural generation.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
