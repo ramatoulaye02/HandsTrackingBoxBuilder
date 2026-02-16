@@ -1,6 +1,8 @@
 # 🖐️ Gemini Voxel Builder
 
-A 3D voxel creation tool powered by hand tracking and Gemini AI structural generation. Build, erase, and navigate 3D structures using intuitive hand gestures, or let Gemini AI generate complex structures from natural language prompts.
+![Enregistrement de l’écran 2026-02-16 133000](https://github.com/user-attachments/assets/32507b58-32c6-4788-af50-911f1263c4b3)
+
+Conputer Vision Handtracking Box Builder Tool
 
 ![Hand Tracking Demo](https://img.shields.io/badge/Status-Active-success)
 ![React](https://img.shields.io/badge/React-19.2-blue)
